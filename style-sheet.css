@@ -1,5 +1,26 @@
 body {
-    background-color: black;
-    color: white;
-    /*color: hsl(219, 94%, 34%);*/
+    background-color: white;
+    color: black;
+}
+
+
+
+/*===========
+Navbar start
+=============*/
+
+/* match default bootstrap link color */
+.custom-toggler {
+    border-color: #007bff;
+}
+.custom-toggler:hover {
+    border-color: rgba(0,86,179, 1);
+}
+
+/* match default bootstrap link color on hover*/
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,123,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler:hover .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,86,179, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }

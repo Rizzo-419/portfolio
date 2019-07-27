@@ -47,14 +47,36 @@ FEATURES
 
 <body>
 
-<div class="container-fluid">
-    <nav id="navbar-header" class="row">
-        <div class="mr-auto p-3"><a href="mailto:TylerB.careers@gmail.com">Reach Out to Me!</a></div><!-- mr-auto pushes the following elements to the right of the page -->
-        <div class="p-3"><a href="#">Resume</a></div>
-        <div class="p-3"><a href="https://github.com/Rizzo-419"><i class="fa fa-lg fa-github" aria-hidden="true"></a></i></div>
-        <div class="p-3"><a href="https://www.linkedin.com/in/tyler-biggert"><i class="fa fa-lg fa-linkedin-square" aria-hidden="true"></i></a></div>
-    </nav>
+<div class="container-fluid"><!-- allows navbar to span the width of the page -->
+<nav class="navbar navbar-expand-sm navbar-dark">
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mr-auto">
+            <li class="navbar-item p-3">
+                <a href="mailto:TylerB.careers@gmail.com">Reach Out to Me!</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item p-3">
+                <a href="#">Resume</a>
+            </li>
+            <li class="nav-item p-3">
+                <a href="https://github.com/Rizzo-419"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item p-3">
+                <a href="https://www.linkedin.com/in/tyler-biggert"><i class="fa fa-lg fa-linkedin-square" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+
+</nav>
 </div>
+
 
 <aside id="aboutMe">
     <h2>About Me</h2>
