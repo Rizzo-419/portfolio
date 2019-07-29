@@ -1,15 +1,40 @@
+/*====================================================
+                    BRAINSTORM
+======================================================
+
+FEATURES
+
+* simple navbar
+* lots of white space
+* subtle background movement
+* two or four project
+    -use cards
+    -scrolling gif showing off website project
+    -transform on hover
+    -make them POP
+
+
+-----------------------------------------------------*/
+
+
+
+
+
+
 body {
     background-color: white;
     color: black;
 }
-
+.section-title {
+    margin: 3rem auto; /* centers text and gives top and bottom margin */
+}
 
 
 /*===========
-Navbar start
+    Navbar
 =============*/
 
-/* match default bootstrap link color */
+    /* match default bootstrap link color */
 .custom-toggler {
     border-color: #007bff;
 }
@@ -17,10 +42,20 @@ Navbar start
     border-color: rgba(0,86,179, 1);
 }
 
-/* match default bootstrap link color on hover*/
+    /* match default bootstrap link color on hover*/
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,123,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .custom-toggler:hover .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,86,179, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/*===========
+    Cards
+=============*/
+
+.card {
+    border-color: rgb(66, 66, 66);
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
 }
