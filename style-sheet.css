@@ -57,5 +57,17 @@ body {
 
 .card {
     border-color: rgb(66, 66, 66);
-    box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.3);
+}
+
+#website-project-img {
+    display: none;
+}
+@media screen and (max-width: 767px) { /* gif is only 1.5mb but wanted to practice a media query */
+#website-project-img {
+    display: block;
+    }
+#website-project-gif {
+    display: none;
+    }
 }
