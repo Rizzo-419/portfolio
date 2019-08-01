@@ -25,8 +25,15 @@ body {
     background-color: white;
     color: black;
 }
+p {
+    text-indent: 2rem;
+}
 .section-title {
-    margin: 3rem auto; /* centers text and gives top and bottom margin */
+    text-align: center;
+    margin: 1.5rem auto; /* centers div and gives top and bottom margin */
+}
+#white-space-div {
+    height: 6rem;
 }
 
 
@@ -59,15 +66,15 @@ body {
     border-color: rgb(66, 66, 66);
     box-shadow: 10px 10px 5px rgba(0,0,0,0.3);
 }
-
-#website-project-img {
+    /* hides gif unless media query below is active */
+#website-project-gif {
     display: none;
 }
-@media screen and (max-width: 767px) { /* gif is only 1.5mb but wanted to practice a media query */
-#website-project-img {
+@media screen and (min-width: 767px) { /* gif is only 1.5mb but wanted to practice a media query */
+#website-project-gif {
     display: block;
     }
-#website-project-gif {
+#website-project-img {
     display: none;
     }
 }

@@ -25,9 +25,7 @@ FEATURES
 * Dont rate skills
 * Very short about me
     - one or two sentences
-* No footer?
-
-------------------------------------------------------->
+* No footer? -->
 
 
 
@@ -76,39 +74,47 @@ FEATURES
 </nav>
 </div>
 
-<div class="container text-center section-title">
+<div class="container section-title">
     <span>
-        <h2>Recent Projects</h2>
+        <h2>Project Spotlight</h2>
     </span>
 </div>
 
 <div class="container card-deck mx-auto"><!-- could also use margin:0 auto; css to center div -->
-    <div class="card">
+    <div class="card mx-auto col-sm-8 col-lg-6">
         <img class="card-img-top" id="website-project-gif" src="imgs/websiteDemoGif.gif">
         <img class="card-img-top" id="website-project-img" src="imgs/websiteProjectCard.png">
         <div class="card-body">
-            <h4 class="card-title">First Web Site</h4>
-            <p class="card-text">Creating eight pages helped me learn HTML5, CSS3, and JavaScript.</p>
+            <h4 class="card-title">Personal Web Site</h4>
+            <p class="card-text">Creating these pages has helped me learn HTML5, CSS3, and JavaScript.</p>
             <a href="https://github.com/TylerBiggert/website" class="btn btn-primary" target="_blank">CODE</a>
             <a href="http://www.ty-learns-web.epizy.com/" class="btn btn-primary" target="_blank">HOSTED</a>
         </div>
     </div>
 
+      <!-- placeholder for next project
     <div class="card">
-        <img class="card-img-top" src="imgs/websiteProjectCard.png">
+        <img class="card-img-top" src="#">
         <div class="card-body">
-            <h4 class="card-title">First Web Site</h4>
-            <p class="card-text">Creating eight pages helped me learn HTML5, CSS3, and JavaScript</p>
-            <a href="https://github.com/TylerBiggert/website" class="btn btn-primary" target="_blank">CODE</a>
-            <a href="http://www.ty-learns-web.epizy.com/" class="btn btn-primary" target="_blank">HOSTED</a>
+            <h4 class="card-title"></h4>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary" target="_blank">CODE</a>
+            <a href="#" class="btn btn-primary" target="_blank">HOSTED</a>
         </div>
-    </div>
+    </div> -->
 </div>
 
+<div class="container" id="white-space-div"></div> <!-- used this div to add white space instead of margins/padding because this is a placeholder for something in the future -->
 
-<div class="container" id="aboutMe">
-    <h2>About Me</h2>
-        <p>I am willing, able, and eager to develop as a programmer. "Dedicated to continuous improvement" is my mission statement I live by.</p>
+<div class="container row mx-auto">
+    <span class="col-md-6">
+        <h2 class="section-title">About Me</h2>
+        <p class="col-sm-8 mx-auto">"Dedicated to continuous improvement" is my mission statement I live by. I am willing, able, and eager to develop as a programmer. </p>
+    </span>
+    <span class="col-md-6">
+        <h2 class="section-title">About Me</h2>
+        <p class="col-md-12 mx-auto">I am willing, able, and eager to develop as a programmer. "Dedicated to continuous improvement" is my mission statement I live by.</p>
+    </span>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
