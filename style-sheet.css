@@ -22,11 +22,8 @@ FEATURES
 
 
 body {
-    background-color: white;
+    background-color: rgba(191, 248, 255, 0.35);
     color: black;
-}
-p {
-    text-indent: 2rem;
 }
 .section-title {
     text-align: center;
