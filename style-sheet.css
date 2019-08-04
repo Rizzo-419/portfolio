@@ -30,12 +30,18 @@ body {
     margin: 1.5rem auto; /* centers div and gives top and bottom margin */
 }
 #white-space-div {
-    height: 6rem;
+    height: 4rem;
 }
 .section-title + p {
     background-color:white;
-    border:1px solid rgba(0,0,0,.125); /*matches default BootStrap */
+    border:1px solid rgba(0,0,0,.125); /* matches default BootStrap */
     padding: .75rem 1.25rem;
+}
+.btn {
+    border:1px solid rgba(70, 70, 70, 0.9);
+}
+ul > .list-group-item { /* does not style navbar */
+    border:1px solid rgba(70, 70, 70, 0.9);
 }
 
 /*===========
@@ -65,7 +71,7 @@ body {
 
 .card {
     border-color: rgb(66, 66, 66);
-    box-shadow: 10px 10px 5px rgba(0,0,0,0.3);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
     /* hides gif unless media query below is active */
 #website-project-gif {
@@ -78,4 +84,13 @@ body {
 #website-project-img {
     display: none;
     }
+}
+
+
+/*===========
+   Dark Mode
+=============*/
+
+.whiteText {
+    color:white;
 }
