@@ -15,24 +15,30 @@ var allTextElems = document.querySelectorAll("h1,li,.darkBG,button");
 var allBGElems = document.querySelectorAll("body,button,li,.darkBG");
 var allCardElems = document.querySelectorAll(".card")
 
-function changeTextWhite(allTextElems) {
-    allTextElems.style.color = "white";
+    //IE 11 fix to turn Node into Array (googled this answer)
+var allTextElemsArray= Array.prototype.slice.call(allTextElems);
+var allBGElemsArray= Array.prototype.slice.call(allBGElems);
+var allCardElemsArray= Array.prototype.slice.call(allCardElems);
+
+function changeTextWhite(allTextElemsArray) {
+    allTextElemsArray.style.color = "white";
 }
 
-function changeBGDark(allBGElems) {
-    allBGElems.style.backgroundColor = "black";
+function changeBGDark(allBGElemsArray) {
+    allBGElemsArray.style.backgroundColor = "black";
 }
 
-function changeBoxShadow(allCardElems){
-    allCardElems.style.boxShadow = "10px 10px 5px rgba(255,255,255,0.3)";
+function changeBoxShadow(allCardElemsArray){
+    allCardElemsArray.style.boxShadow = "10px 10px 5px rgba(255,255,255,0.3)";
 }
 
     //runs onclick
 function darkMode() {
-    allTextElems.forEach(changeTextWhite);
-    allBGElems.forEach(changeBGDark);
-    allCardElems.forEach(changeBoxShadow);
+    allTextElemsArray.forEach(changeTextWhite);
+    allBGElemsArray.forEach(changeBGDark);
+    allCardElemsArray.forEach(changeBoxShadow);
 };
+
 
 // Dark Mode End
 // --------------------------------

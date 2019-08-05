@@ -73,6 +73,9 @@ ul > .list-group-item { /* does not style navbar */
     border-color: rgb(66, 66, 66);
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
+.card-img-top {
+    max-height: 500px;
+}
     /* hides gif unless media query below is active */
 #website-project-gif {
     display: none;
