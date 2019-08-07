@@ -46,3 +46,11 @@ function darkMode() {
 function refreshPage(){
     window.location.reload();
 }
+
+
+//==================================
+//     Game Ideas Brainstorming
+//==================================
+// -given map, navigate to x, dig treasure
+// -user action to gain currency to buy items
+// -vehicle maintenance
