@@ -1,0 +1,19 @@
+{
+  "name": "tylerbiggert.github.io",
+  "version": "1.0.0",
+  "description": "NewFeatureBranch npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerBiggert/TylerBiggert.github.io.git"
+  },
+  "author": "Tyler Biggert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TylerBiggert/TylerBiggert.github.io/issues"
+  },
+  "homepage": "https://github.com/TylerBiggert/TylerBiggert.github.io#readme"
+}
