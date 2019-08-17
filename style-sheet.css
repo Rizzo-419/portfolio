@@ -77,14 +77,14 @@ body {
     height: 500px;
 }
     /* hides gif unless media query below is active */
-#gif1, #gif2  {
+#gif1, #gif2, #darkModeContainer {
     display: none;
 }
-@media screen and (min-width: 767px) { /* gif is only 1.5mb but wanted to practice a media query */
-#gif1, #gif2 {
+@media screen and (min-width: 575px) { /* gif is only 1.5mb but wanted to practice a media query */
+#gif1, #gif2, #darkModeContainer {
     display: block;
     }
-#img1, #img2 {
+#img1, #img2, #darkModeNavBar {
     display: none;
     }
 }
@@ -96,4 +96,17 @@ body {
 
 .whiteText {
     color:white;
+}
+
+
+/*===========
+    Lists
+=============*/
+
+:first-child.list-group-item {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    font-weight: bold;
 }
