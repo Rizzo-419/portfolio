@@ -67,21 +67,24 @@ body {
 =============*/
 
 .card {
-    border-color: rgba(70, 70, 70, 0.9);
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 .card-img-top {
     max-height: 500px;
 }
+#website-project-gif, #roster-project-gif {
+    width: 515px;
+    height: 500px;
+}
     /* hides gif unless media query below is active */
-#website-project-gif {
+#website-project-gif, #roster-project-gif {
     display: none;
 }
 @media screen and (min-width: 767px) { /* gif is only 1.5mb but wanted to practice a media query */
-#website-project-gif {
+#website-project-gif, #roster-project-gif {
     display: block;
     }
-#website-project-img {
+#website-project-img, #roster-project-img {
     display: none;
     }
 }
