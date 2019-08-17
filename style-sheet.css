@@ -72,19 +72,19 @@ body {
 .card-img-top {
     max-height: 500px;
 }
-#website-project-gif, #roster-project-gif {
+#gif1, #gif2 {
     width: 515px;
     height: 500px;
 }
     /* hides gif unless media query below is active */
-#website-project-gif, #roster-project-gif {
+#gif1, #gif2  {
     display: none;
 }
 @media screen and (min-width: 767px) { /* gif is only 1.5mb but wanted to practice a media query */
-#website-project-gif, #roster-project-gif {
+#gif1, #gif2 {
     display: block;
     }
-#website-project-img, #roster-project-img {
+#img1, #img2 {
     display: none;
     }
 }
