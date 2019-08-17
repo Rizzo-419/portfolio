@@ -70,11 +70,19 @@ FEATURES
                 <a href="https://www.linkedin.com/in/tyler-biggert" target="_blank"><i class="fa fa-lg fa-linkedin-square" aria-hidden="true"></i></a>
             </li>
         </ul>
+        <div class="container" id="darkModeNavBar">
+            <div class="container">
+                <button class="btn btn-light float-right m-1" type="button" onclick="refreshPage()">Default</button><!-- could have done a .js event listener instead of onclick property -->
+            </div>
+            <div class="container">
+                <button class="btn btn-dark float-right m-1" type="button" onclick="darkMode()">darkMode.js</button>
+            </div>
+        </div>
     </div>
 </nav>
 </div>
 
-<div class="container">
+<div class="container" id="darkModeContainer">
     <div class="container">
         <button class="btn btn-light float-right m-1" type="button" onclick="refreshPage()">Default</button><!-- could have done a .js event listener instead of onclick property -->
     </div>
@@ -108,7 +116,7 @@ FEATURES
         <div class="card-body">
             <h4 class="card-title">Searchable Rays Roster</h4>
             <p class="card-text">ReactJS site using create-react-app</p>
-            <a href="https://github.com/TylerBiggert/tamparoster/tree/gh-pages" class="btn btn-primary" target="_blank">CODE</a>
+            <a href="https://github.com/TylerBiggert/tamparoster/tree/master" class="btn btn-primary" target="_blank">CODE</a>
             <a href="https://TylerBiggert.github.io/tamparoster" class="btn btn-primary" target="_blank">HOSTED</a>
         </div>
     </div>
@@ -118,25 +126,31 @@ FEATURES
 <div class="container" id="white-space-div"></div>
 
 <div class="container row mx-auto">
-    <span class="col-md-6">
+    <span class="col-lg-6">
         <h2 class="section-title darkBG">About Me</h2>
         <p class="col-sm-8 mx-auto darkBG">"Dedicated to continuous improvement" is my mission statement I live by. I am willing, able, and eager to develop as a programmer. </p>
     </span>
-    <span class="col-md-6">
+    <span class="col-lg-6">
         <h2 class="section-title darkBG">I'm Familiar With</h2>
-        <ul class="list-group-horizontal text-center">
-            <li class="list-group-item">HTML5</li>
-            <li class="list-group-item">CSS3</li>
-            <li class="list-group-item">JavaScript</li>
-            <li class="list-group-item">BootStrap4</li>
-            <li class="list-group-item">ReactJS</li>
-            <li class="list-group-item">JSX</li>
-            <li class="list-group-item">Git/GitBash/GitHub</li>
-            <li class="list-group-item">Font Awesome</li>
-            <li class="list-group-item">FileZilla</li>
-            <li class="list-group-item">Tachyons</li>
-            <li class="list-group-item">Visual Studio Code</li>
-        </ul>
+        <div class="container row">
+            <ul class="list-group-horizontal text-center col-sm-6">
+                <li class="list-group-item">FRONTEND:</li>
+                <li class="list-group-item">JavaScript</li>
+                <li class="list-group-item">CSS3</li>
+                <li class="list-group-item">HTML5</li>
+                <li class="list-group-item">BootStrap4</li>
+                <li class="list-group-item">ReactJS</li>
+                <li class="list-group-item">JSX</li>
+            </ul>
+            <ul class="list-group-horizontal text-center col-sm-6">
+                <li class="list-group-item">TECHNOLOGIES:</li>
+                <li class="list-group-item">Git/GitHub</li>
+                <li class="list-group-item">Font Awesome</li>
+                <li class="list-group-item">FileZilla</li>
+                <li class="list-group-item">Tachyons</li>
+                <li class="list-group-item">Visual Studio Code</li>
+            </ul>
+        </div>
     </span>
 </div>
 
