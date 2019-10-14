@@ -83,7 +83,7 @@ body {
 #gif1, #gif2, #gif3, #gif4, #darkModeContainer {
     display: none;
 }
-@media screen and (min-width: 575px) { /* gif is only 1.5mb but wanted to practice a media query */
+@media screen and (min-width: 575px) {
 #gif1, #gif2, #gif3, #gif4, #darkModeContainer {
     display: block;
     }
