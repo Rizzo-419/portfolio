@@ -75,19 +75,19 @@ body {
 .card-img-top {
     max-height: 500px;
 }
-#gif1, #gif2, #gif3 {
+#gif1, #gif2, #gif3, #gif4 {
     width: 515px;
     height: 500px;
 }
     /* hides gif unless media query below is active */
-#gif1, #gif2, #gif3, #darkModeContainer {
+#gif1, #gif2, #gif3, #gif4, #darkModeContainer {
     display: none;
 }
 @media screen and (min-width: 575px) { /* gif is only 1.5mb but wanted to practice a media query */
-#gif1, #gif2, #gif3, #darkModeContainer {
+#gif1, #gif2, #gif3, #gif4, #darkModeContainer {
     display: block;
     }
-#img1, #img2, #img3, #darkModeNavBar {
+#img1, #img2, #img3, #img4, #darkModeNavBar {
     display: none;
     }
 }
