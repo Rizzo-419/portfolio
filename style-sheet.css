@@ -75,19 +75,19 @@ body {
 .card-img-top {
     max-height: 500px;
 }
-#gif1, #gif2, #gif3, #gif4 {
-    width: 515px;
+#gif1, #gif2, #gif3, #gif4, #gif5 {
+    width: 500px;
     height: 500px;
 }
     /* hides gif unless media query below is active */
-#gif1, #gif2, #gif3, #gif4, #darkModeContainer {
+#gif1, #gif2, #gif3, #gif4, #gif5, #darkModeContainer {
     display: none;
 }
 @media screen and (min-width: 575px) {
-#gif1, #gif2, #gif3, #gif4, #darkModeContainer {
+#gif1, #gif2, #gif3, #gif4, #gif5, #darkModeContainer {
     display: block;
     }
-#img1, #img2, #img3, #img4, #darkModeNavBar {
+#img1, #img2, #img3, #img4, #img5, #darkModeNavBar {
     display: none;
     }
 }
